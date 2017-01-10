@@ -22,4 +22,5 @@ public class Author {
         return this.name;
     }
     private String name;
+    private String test1;
 }
