@@ -45,7 +45,7 @@ public class LMS extends JFrame{
 	theTab.add("Add Author", bt2);
 	theTab.add("Show all Books", bt3);
 	theTab.add("Search on ISBN", bt4);
-	theTab.add("Search on Price", bt5);
+	theTab.add("Search on Pric", bt5);
         
         c.setLayout(new BorderLayout());
         c.add(topPanel,"North");
@@ -71,7 +71,7 @@ public class LMS extends JFrame{
     private JButton bt3 = new JButton("T");
     private JButton bt4 = new JButton("R");
     private JButton bt5 = new JButton("Z");
-   // private Author author = new Author();
+    private Author author = new Author("As");
     
    public static void main(String[] args) {
        LMS lms = new LMS();
